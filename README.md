@@ -1,5 +1,6 @@
 # Civ-like game
-Upon launching the game, you'll need to create a lobby. All players must indicate their readiness, then the game will start.
+
+Upon launching the game, you'll need to create a lobby. All players must indicate their readiness, then the game will start.  
 ***Online functionality is implemented using the Photon library.***
 
 ![Lobby: ](https://github.com/Hostileca/Civ-like-game/blob/master/Screenshots/Lobby.png)
