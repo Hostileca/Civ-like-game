@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - UnitManager
+  - UpgradeManager
+  - TownManager
+  - UI
+  - CivilizationsManager
+  - NetworkManager
+  - Settings
+  - CellManager
+  - InformationManager
+  - FogManager
+  - VictoriesManager
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - CellLayer
+  - UpgradeLayer
+  - InformationLayer
+  - UnitLayer
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Cell
+    uniqueID: 3157584945
+    locked: 0
+  - name: Upgrade
+    uniqueID: 543566179
+    locked: 0
+  - name: Information
+    uniqueID: 60360007
+    locked: 0
+  - name: Town
+    uniqueID: 1130831807
+    locked: 0
+  - name: Unit
+    uniqueID: 732477893
+    locked: 0
+  - name: Fog
+    uniqueID: 2512834573
+    locked: 0

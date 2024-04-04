@@ -1,0 +1,496 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: Tiles
+    m_Hash: 500476863
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Snow
+      m_Hash: 380701325
+      m_Sprite: {fileID: 21300000, guid: 85881cfa798f38449a2577cb71a48e9f, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 85881cfa798f38449a2577cb71a48e9f, type: 3}
+    - m_Name: Ocean
+      m_Hash: 769818394
+      m_Sprite: {fileID: 21300000, guid: b6d42b50d0db0a446b7575e831d2a834, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: b6d42b50d0db0a446b7575e831d2a834, type: 3}
+    - m_Name: Sand
+      m_Hash: 4734255
+      m_Sprite: {fileID: 21300000, guid: 5e1609fedd2fe5f43908a26ea97c2c9b, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 5e1609fedd2fe5f43908a26ea97c2c9b, type: 3}
+    - m_Name: Grass
+      m_Hash: 701280503
+      m_Sprite: {fileID: 21300000, guid: 856ee7cfa2f4d7545805b994840a4852, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 856ee7cfa2f4d7545805b994840a4852, type: 3}
+    - m_Name: Savanna
+      m_Hash: 980649071
+      m_Sprite: {fileID: 21300000, guid: 20f0af847b1827f429692a1896e0bbd5, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 20f0af847b1827f429692a1896e0bbd5, type: 3}
+    - m_Name: Fog
+      m_Hash: 988130291
+      m_Sprite: {fileID: 21300000, guid: 38d227fe97ba22c479e162918ccd0fc2, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 38d227fe97ba22c479e162918ccd0fc2, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 6
+  - m_Name: TilesUpgrade
+    m_Hash: 896936767
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Forest
+      m_Hash: 804345474
+      m_Sprite: {fileID: 21300000, guid: 646398775b2f24847938e24d1a783b70, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 646398775b2f24847938e24d1a783b70, type: 3}
+    - m_Name: Hills
+      m_Hash: 688286325
+      m_Sprite: {fileID: 21300000, guid: bdf265ecfc36b3f4e810b251ac9f7395, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: bdf265ecfc36b3f4e810b251ac9f7395, type: 3}
+    - m_Name: Mountain
+      m_Hash: 617900906
+      m_Sprite: {fileID: 21300000, guid: 540da2621ee6cb4478e595aa4ae5ddc8, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 540da2621ee6cb4478e595aa4ae5ddc8, type: 3}
+    - m_Name: Swamp
+      m_Hash: 104472546
+      m_Sprite: {fileID: 21300000, guid: 7594413bcdf87574d91b4cd1bd7c721d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 7594413bcdf87574d91b4cd1bd7c721d, type: 3}
+    - m_Name: Oasis
+      m_Hash: 882871938
+      m_Sprite: {fileID: 21300000, guid: 54f0d0a68daecaa4c929438d86f3bcca, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 54f0d0a68daecaa4c929438d86f3bcca, type: 3}
+    - m_Name: Observatory
+      m_Hash: 1004061022
+      m_Sprite: {fileID: 21300000, guid: 43ac061a1f9e2124b8cf72aa5c157601, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 43ac061a1f9e2124b8cf72aa5c157601, type: 3}
+    - m_Name: GiantFlask
+      m_Hash: 158551482
+      m_Sprite: {fileID: 21300000, guid: a3f0a4fa8a6e1a44abb3dd1696ccd23c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: a3f0a4fa8a6e1a44abb3dd1696ccd23c, type: 3}
+    - m_Name: Cathedral
+      m_Hash: 735486340
+      m_Sprite: {fileID: 21300000, guid: 223159c53d8a46b43b42b14b91f2ade9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 223159c53d8a46b43b42b14b91f2ade9, type: 3}
+    - m_Name: Sawmill
+      m_Hash: 67967709
+      m_Sprite: {fileID: 21300000, guid: f6c965cef60fd1d40a9098dbf54e0043, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: f6c965cef60fd1d40a9098dbf54e0043, type: 3}
+    - m_Name: Bazaar
+      m_Hash: 410713888
+      m_Sprite: {fileID: 21300000, guid: 3e0b8a1ec6653cf4e8bae3f3dc372161, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 3e0b8a1ec6653cf4e8bae3f3dc372161, type: 3}
+    - m_Name: Farm
+      m_Hash: 941916027
+      m_Sprite: {fileID: 21300000, guid: cf2809d90ece1c64aa7b228d2765a067, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: cf2809d90ece1c64aa7b228d2765a067, type: 3}
+    - m_Name: Mine
+      m_Hash: 161119405
+      m_Sprite: {fileID: 21300000, guid: 70476bf81f62a5343910c4fdaebef25e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 70476bf81f62a5343910c4fdaebef25e, type: 3}
+    - m_Name: Forge
+      m_Hash: 851798312
+      m_Sprite: {fileID: 21300000, guid: 8b6d60601ea965240804878936bd3c47, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 8b6d60601ea965240804878936bd3c47, type: 3}
+    - m_Name: ScienceTable
+      m_Hash: 348944572
+      m_Sprite: {fileID: 21300000, guid: b8181e988103d854e999283df43ed643, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: b8181e988103d854e999283df43ed643, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 14
+  - m_Name: Characteristics
+    m_Hash: 955420616
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Food
+      m_Hash: 873105097
+      m_Sprite: {fileID: 21300000, guid: 6d8d5d3086da9f0498e1179656cb66e9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 6d8d5d3086da9f0498e1179656cb66e9, type: 3}
+    - m_Name: Production
+      m_Hash: 481342000
+      m_Sprite: {fileID: 21300000, guid: 48bcada6d3570ab4eb1c000ead18629a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 48bcada6d3570ab4eb1c000ead18629a, type: 3}
+    - m_Name: Science
+      m_Hash: 682231860
+      m_Sprite: {fileID: 21300000, guid: ce389bfdbac555a4695a0c0ea28ce5f0, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: ce389bfdbac555a4695a0c0ea28ce5f0, type: 3}
+    - m_Name: Gold
+      m_Hash: 664515183
+      m_Sprite: {fileID: 21300000, guid: 05375ae471ae9824bb4968ecc77da239, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 05375ae471ae9824bb4968ecc77da239, type: 3}
+    - m_Name: Culture
+      m_Hash: 957654391
+      m_Sprite: {fileID: 21300000, guid: 62fb448f57a6387429af71fda37b4677, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 62fb448f57a6387429af71fda37b4677, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 5
+  - m_Name: Unit
+    m_Hash: 1015653229
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Settler
+      m_Hash: 405503695
+      m_Sprite: {fileID: 21300000, guid: 3d413f8d5d625c3449628d570afc7e1e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 3d413f8d5d625c3449628d570afc7e1e, type: 3}
+    - m_Name: CloseCombatSpearman
+      m_Hash: 404695778
+      m_Sprite: {fileID: 21300000, guid: b189fb67c63947c4ba6fa5cf00a11fd9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: b189fb67c63947c4ba6fa5cf00a11fd9, type: 3}
+    - m_Name: CloseCombatWarrior
+      m_Hash: 845064822
+      m_Sprite: {fileID: 21300000, guid: 087d9a1534480f444b17d7fc6da80d8c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 087d9a1534480f444b17d7fc6da80d8c, type: 3}
+    - m_Name: ScoutScout
+      m_Hash: 602190701
+      m_Sprite: {fileID: 21300000, guid: b799001d623dce041a3e5ae1538e6af0, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: b799001d623dce041a3e5ae1538e6af0, type: 3}
+    - m_Name: Worker
+      m_Hash: 404666964
+      m_Sprite: {fileID: 21300000, guid: b656b91cb4d2c084b8bccd962e237799, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: b656b91cb4d2c084b8bccd962e237799, type: 3}
+    - m_Name: CavalryCavalryTroops
+      m_Hash: 169685485
+      m_Sprite: {fileID: 21300000, guid: b0036567766094a45afa5d94904371e9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: b0036567766094a45afa5d94904371e9, type: 3}
+    - m_Name: AntiCavalryShieldWarriors
+      m_Hash: 908462236
+      m_Sprite: {fileID: 21300000, guid: 2fa5006e574059740bd4f312cb713b09, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 2fa5006e574059740bd4f312cb713b09, type: 3}
+    - m_Name: CavalryChariot
+      m_Hash: 93431319
+      m_Sprite: {fileID: 21300000, guid: b32685b47c822bf4cbad45c15fff778b, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: b32685b47c822bf4cbad45c15fff778b, type: 3}
+    - m_Name: CavalryFightingVehicle
+      m_Hash: 709344349
+      m_Sprite: {fileID: 21300000, guid: fd3af7d08aa255e48a65bbb25662bc7a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: fd3af7d08aa255e48a65bbb25662bc7a, type: 3}
+    - m_Name: CavalryMilitaryCar
+      m_Hash: 172255545
+      m_Sprite: {fileID: 21300000, guid: c3201106c527bb94fa8e4848e01a8276, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: c3201106c527bb94fa8e4848e01a8276, type: 3}
+    - m_Name: CavalryTank
+      m_Hash: 397046984
+      m_Sprite: {fileID: 21300000, guid: 278a50d6e9fe6044fb57b4b50abaa997, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 278a50d6e9fe6044fb57b4b50abaa997, type: 3}
+    - m_Name: AntiCavalrySpikyShieldWarriors
+      m_Hash: 39539353
+      m_Sprite: {fileID: 21300000, guid: f9e7a6c3c11cd6e42b7fed90bae491dc, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: f9e7a6c3c11cd6e42b7fed90bae491dc, type: 3}
+    - m_Name: AntiCavalryMetalShieldWarriors
+      m_Hash: 159703933
+      m_Sprite: {fileID: 21300000, guid: b44a318ab1d4c3f43bee5bc23cae0024, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: b44a318ab1d4c3f43bee5bc23cae0024, type: 3}
+    - m_Name: AntiCavalryGrenadelaunchers
+      m_Hash: 289121723
+      m_Sprite: {fileID: 21300000, guid: 26284d36597a7164a98bf3b6ec60309d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 26284d36597a7164a98bf3b6ec60309d, type: 3}
+    - m_Name: AntiCavalryRocketLaunchers
+      m_Hash: 961137023
+      m_Sprite: {fileID: 21300000, guid: 342fbc46c36c16d4d965bf0c942750f7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 342fbc46c36c16d4d965bf0c942750f7, type: 3}
+    - m_Name: CloseCombatSwordsman
+      m_Hash: 206028523
+      m_Sprite: {fileID: 21300000, guid: 7fbfaf61116f8904a9976645307c715d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 7fbfaf61116f8904a9976645307c715d, type: 3}
+    - m_Name: CloseCombatMusketeers
+      m_Hash: 1064240442
+      m_Sprite: {fileID: 21300000, guid: 13f412787cd2dab4f87134f14289254e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 13f412787cd2dab4f87134f14289254e, type: 3}
+    - m_Name: CloseCombatStormtrooper
+      m_Hash: 209616086
+      m_Sprite: {fileID: 21300000, guid: e8aef307f9a97c0449f6052eca84ca37, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: e8aef307f9a97c0449f6052eca84ca37, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 18
+  - m_Name: Town
+    m_Hash: 752117914
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Town
+      m_Hash: 752117914
+      m_Sprite: {fileID: 21300000, guid: bcaa825421abcab40814f38c56a57121, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: bcaa825421abcab40814f38c56a57121, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: Researches
+    m_Hash: 228924824
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Mining
+      m_Hash: 577859424
+      m_Sprite: {fileID: 21300000, guid: 70476bf81f62a5343910c4fdaebef25e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 70476bf81f62a5343910c4fdaebef25e, type: 3}
+    - m_Name: Wood processing
+      m_Hash: 934266758
+      m_Sprite: {fileID: 21300000, guid: f6c965cef60fd1d40a9098dbf54e0043, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: f6c965cef60fd1d40a9098dbf54e0043, type: 3}
+    - m_Name: Trading
+      m_Hash: 866435780
+      m_Sprite: {fileID: 21300000, guid: 3e0b8a1ec6653cf4e8bae3f3dc372161, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 3e0b8a1ec6653cf4e8bae3f3dc372161, type: 3}
+    - m_Name: Irrigation
+      m_Hash: 901557720
+      m_Sprite: {fileID: 21300000, guid: cf2809d90ece1c64aa7b228d2765a067, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: cf2809d90ece1c64aa7b228d2765a067, type: 3}
+    - m_Name: Taming horses
+      m_Hash: 1005742430
+      m_Sprite: {fileID: 21300000, guid: b0036567766094a45afa5d94904371e9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: b0036567766094a45afa5d94904371e9, type: 3}
+    - m_Name: Pillars of Culture
+      m_Hash: 879183457
+      m_Sprite: {fileID: 21300000, guid: 56dcd441c4cf46240ba9a74fcf708b04, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 56dcd441c4cf46240ba9a74fcf708b04, type: 3}
+    - m_Name: Research stations
+      m_Hash: 464854237
+      m_Sprite: {fileID: 21300000, guid: b8181e988103d854e999283df43ed643, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: b8181e988103d854e999283df43ed643, type: 3}
+    - m_Name: Shipbuilding
+      m_Hash: 54225724
+      m_Sprite: {fileID: 21300000, guid: b6d42b50d0db0a446b7575e831d2a834, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: b6d42b50d0db0a446b7575e831d2a834, type: 3}
+    - m_Name: Metal processing
+      m_Hash: 447895064
+      m_Sprite: {fileID: 21300000, guid: 8b6d60601ea965240804878936bd3c47, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 8b6d60601ea965240804878936bd3c47, type: 3}
+    - m_Name: Chariot Mastery
+      m_Hash: 824059446
+      m_Sprite: {fileID: 21300000, guid: b32685b47c822bf4cbad45c15fff778b, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: b32685b47c822bf4cbad45c15fff778b, type: 3}
+    - m_Name: Development of protection
+      m_Hash: 863882523
+      m_Sprite: {fileID: 21300000, guid: f9e7a6c3c11cd6e42b7fed90bae491dc, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: f9e7a6c3c11cd6e42b7fed90bae491dc, type: 3}
+    - m_Name: Development of close combat
+      m_Hash: 45113174
+      m_Sprite: {fileID: 21300000, guid: b189fb67c63947c4ba6fa5cf00a11fd9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: b189fb67c63947c4ba6fa5cf00a11fd9, type: 3}
+    - m_Name: Cultural monuments
+      m_Hash: 780411682
+      m_Sprite: {fileID: 21300000, guid: f062e144ef9b8b7449b8a40f832dcc62, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: f062e144ef9b8b7449b8a40f832dcc62, type: 3}
+    - m_Name: Da Vinci technology
+      m_Hash: 656873646
+      m_Sprite: {fileID: 21300000, guid: fd3af7d08aa255e48a65bbb25662bc7a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: fd3af7d08aa255e48a65bbb25662bc7a, type: 3}
+    - m_Name: Shield arts
+      m_Hash: 673325976
+      m_Sprite: {fileID: 21300000, guid: b44a318ab1d4c3f43bee5bc23cae0024, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: b44a318ab1d4c3f43bee5bc23cae0024, type: 3}
+    - m_Name: Sword arts
+      m_Hash: 323181136
+      m_Sprite: {fileID: 21300000, guid: 7fbfaf61116f8904a9976645307c715d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 7fbfaf61116f8904a9976645307c715d, type: 3}
+    - m_Name: Protection of Nature
+      m_Hash: 806065262
+      m_Sprite: {fileID: 21300000, guid: 646398775b2f24847938e24d1a783b70, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 646398775b2f24847938e24d1a783b70, type: 3}
+    - m_Name: Gunpowder
+      m_Hash: 741624666
+      m_Sprite: {fileID: 21300000, guid: 13f412787cd2dab4f87134f14289254e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 13f412787cd2dab4f87134f14289254e, type: 3}
+    - m_Name: Economy
+      m_Hash: 1067829399
+      m_Sprite: {fileID: 21300000, guid: 14d2e9ebda243704b8075245f26c9329, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 14d2e9ebda243704b8075245f26c9329, type: 3}
+    - m_Name: Cars!
+      m_Hash: 98943927
+      m_Sprite: {fileID: 21300000, guid: c3201106c527bb94fa8e4848e01a8276, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: c3201106c527bb94fa8e4848e01a8276, type: 3}
+    - m_Name: Explosive Engineering
+      m_Hash: 613106902
+      m_Sprite: {fileID: 21300000, guid: 26284d36597a7164a98bf3b6ec60309d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 26284d36597a7164a98bf3b6ec60309d, type: 3}
+    - m_Name: Trade innovations
+      m_Hash: 52939144
+      m_Sprite: {fileID: 21300000, guid: 13e9bcd6070413e41994551a47439e9f, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 13e9bcd6070413e41994551a47439e9f, type: 3}
+    - m_Name: Space exploration
+      m_Hash: 135846074
+      m_Sprite: {fileID: 21300000, guid: 43ac061a1f9e2124b8cf72aa5c157601, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 43ac061a1f9e2124b8cf72aa5c157601, type: 3}
+    - m_Name: Cultural heritage
+      m_Hash: 330961171
+      m_Sprite: {fileID: 21300000, guid: 223159c53d8a46b43b42b14b91f2ade9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 223159c53d8a46b43b42b14b91f2ade9, type: 3}
+    - m_Name: Almost indestructible
+      m_Hash: 673240887
+      m_Sprite: {fileID: 21300000, guid: 278a50d6e9fe6044fb57b4b50abaa997, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 278a50d6e9fe6044fb57b4b50abaa997, type: 3}
+    - m_Name: Smart Explosions
+      m_Hash: 974781795
+      m_Sprite: {fileID: 21300000, guid: 342fbc46c36c16d4d965bf0c942750f7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 342fbc46c36c16d4d965bf0c942750f7, type: 3}
+    - m_Name: Tactical fire
+      m_Hash: 120328153
+      m_Sprite: {fileID: 21300000, guid: e8aef307f9a97c0449f6052eca84ca37, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: e8aef307f9a97c0449f6052eca84ca37, type: 3}
+    - m_Name: Cartography
+      m_Hash: 348960053
+      m_Sprite: {fileID: 21300000, guid: 856ee7cfa2f4d7545805b994840a4852, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 856ee7cfa2f4d7545805b994840a4852, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 28
+  - m_Name: CultureBonuses
+    m_Hash: 700532450
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Cavalry unit production bonus
+      m_Hash: 1021485003
+      m_Sprite: {fileID: 21300000, guid: b0036567766094a45afa5d94904371e9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: b0036567766094a45afa5d94904371e9, type: 3}
+    - m_Name: Anticavalry unit production bonus
+      m_Hash: 971035196
+      m_Sprite: {fileID: 21300000, guid: 2fa5006e574059740bd4f312cb713b09, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 2fa5006e574059740bd4f312cb713b09, type: 3}
+    - m_Name: Close combat unit production bonus
+      m_Hash: 641145898
+      m_Sprite: {fileID: 21300000, guid: 087d9a1534480f444b17d7fc6da80d8c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 087d9a1534480f444b17d7fc6da80d8c, type: 3}
+    - m_Name: Bonus maximum HP for units
+      m_Hash: 634773893
+      m_Sprite: {fileID: 21300000, guid: e8aef307f9a97c0449f6052eca84ca37, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: e8aef307f9a97c0449f6052eca84ca37, type: 3}
+    - m_Name: Bonus maximum shield for units
+      m_Hash: 236477076
+      m_Sprite: {fileID: 21300000, guid: 278a50d6e9fe6044fb57b4b50abaa997, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 278a50d6e9fe6044fb57b4b50abaa997, type: 3}
+    - m_Name: Bonus shield damage for units
+      m_Hash: 459181294
+      m_Sprite: {fileID: 21300000, guid: 342fbc46c36c16d4d965bf0c942750f7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 342fbc46c36c16d4d965bf0c942750f7, type: 3}
+    - m_Name: Bonus HP damage for units
+      m_Hash: 1039909256
+      m_Sprite: {fileID: 21300000, guid: 278a50d6e9fe6044fb57b4b50abaa997, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 278a50d6e9fe6044fb57b4b50abaa997, type: 3}
+    - m_Name: Victory points
+      m_Hash: 37789392
+      m_Sprite: {fileID: 21300000, guid: 6d8d5d3086da9f0498e1179656cb66e9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 6d8d5d3086da9f0498e1179656cb66e9, type: 3}
+    - m_Name: Total production bonus
+      m_Hash: 59493065
+      m_Sprite: {fileID: 21300000, guid: 48bcada6d3570ab4eb1c000ead18629a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 48bcada6d3570ab4eb1c000ead18629a, type: 3}
+    - m_Name: Total culture bonus
+      m_Hash: 264339951
+      m_Sprite: {fileID: 21300000, guid: 62fb448f57a6387429af71fda37b4677, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 62fb448f57a6387429af71fda37b4677, type: 3}
+    - m_Name: Total science bonus
+      m_Hash: 1063044260
+      m_Sprite: {fileID: 21300000, guid: ce389bfdbac555a4695a0c0ea28ce5f0, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: ce389bfdbac555a4695a0c0ea28ce5f0, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 11
+  - m_Name: Victory
+    m_Hash: 1057372614
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Military
+      m_Hash: 991469390
+      m_Sprite: {fileID: 21300000, guid: 96d2092f4c3341247888b7945c83fe51, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 96d2092f4c3341247888b7945c83fe51, type: 3}
+    - m_Name: Science
+      m_Hash: 682231860
+      m_Sprite: {fileID: 21300000, guid: 6d546308cc7276d47b676be4af07be5a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 6d546308cc7276d47b676be4af07be5a, type: 3}
+    - m_Name: Culture
+      m_Hash: 957654391
+      m_Sprite: {fileID: 21300000, guid: 42f282027f841c6468b5d355f869afdb, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 42f282027f841c6468b5d355f869afdb, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 3
+  m_PrimaryLibraryGUID: 
+  m_ModificationHash: 638374074264964517
+  m_Version: 1
